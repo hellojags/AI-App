@@ -1,0 +1,71 @@
+.edONeilAvvdzlhdowaUnsplashIcon {
+  align-self: stretch;
+  height: 296px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.heirloomTomato,
+.lb {
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+}
+.lb {
+  color: var(--color-darkolivegreen);
+}
+.heirloomtomatoOrganicgingerF {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.grownInSan {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  color: var(--color-dimgray);
+}
+.framePair,
+.framePair1,
+.tomato {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.framePair1 {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.framePair,
+.tomato {
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+}
+.tomato {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke);
+  border: 2px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-9xl);
+  gap: var(--gap-5xl);
+  min-width: 296px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .heirloomTomato,
+  .lb {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+}

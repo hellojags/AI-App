@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-newsreader: Newsreader;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-45xl: 64px;
+  --font-size-19xl: 38px;
+  --font-size-32xl: 51px;
+
+  /* Colors */
+  --color-whitesmoke: #fafaf5;
+  --color-gainsboro: #e6e6e6;
+  --color-dimgray: #6d6d6d;
+  --color-darkolivegreen: #426b1f;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-13xl: 32px;
+  --gap-5xl: 24px;
+  --gap-9xs: 4px;
+  --gap-xl: 20px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-9xl: 28px;
+  --padding-5xl: 24px;
+  --padding-mid: 17px;
+  --padding-sm-5: 13.5px;
+
+  /* Border radiuses */
+  --br-5xl: 24px;
+}
